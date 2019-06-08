@@ -117,7 +117,7 @@ img {
 	position: absolute;
 	top: 50%; left: 50%;
 	margin: -45px 0 0 -90px;
-	width: 180px; height: 89px;
+	width: 50%; height: 50%;
 	z-index: 3;
 }
 #logo02,
