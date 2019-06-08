@@ -64,8 +64,8 @@
 	width: 60px; height: 60px;
 }
 #header.scroll h1 a {
-	margin: -14px 0 0 -20px;
-	width: 40px;
+	margin: -25px 0 0 -35px;
+    width: 70px;
 }
 #header.scroll + #btn_gnav {
 	height: 40px;
