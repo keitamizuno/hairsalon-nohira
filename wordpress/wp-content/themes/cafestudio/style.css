@@ -110,14 +110,14 @@ img {
 	position: fixed;
 	top: 0; left: 0;
 	width: 100%; height: 100%;
-	z-index: 500; 
+	z-index: 500;
 }
 /* logo */
 #loading .logo {
-	/* position: absolute; */
+	position: absolute;
 	top: 50%; left: 50%;
 	margin: -45px 0 0 -90px;
-	width: 50%; height: 50%;
+	width: 180px; height: 89px;
 	z-index: 3;
 }
 #logo02,
