@@ -152,8 +152,8 @@ img {
 	-webkit-transform: translateZ(0);
 	-ms-transform: translateZ(0);
 	transform: translateZ(0);
-	-webkit-animation: cafestudioloader .7s infinite linear;
-	animation: cafestudioloader .7s infinite linear;
+	/* -webkit-animation: cafestudioloader .7s infinite linear;
+	animation: cafestudioloader .7s infinite linear; */
 	z-index: 2;
 }
 @-webkit-keyframes cafestudioloader {
