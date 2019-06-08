@@ -652,11 +652,11 @@ body.home #main {
 @-webkit-keyframes ico_new {
 	0% {
 		-webkit-transform: scale(1,1);
-		transform: scale(1,1));
+		transform: scale(1,1);
 	}
 	75% {
 		-webkit-transform: scale(.85,.85);
-		transform: scale(.85,.85));
+		transform: scale(.85,.85);
 	}
 	100% {
 		-webkit-transform: scale(1,1);
@@ -666,11 +666,11 @@ body.home #main {
 @keyframes ico_new {
 	0% {
 		-webkit-transform: scale(1,1);
-		transform: scale(1,1));
+		transform: scale(1,1);
 	}
 	75% {
 		-webkit-transform: scale(.85,.85);
-		transform: scale(.85,.85));
+		transform: scale(.85,.85);
 	}
 	100% {
 		-webkit-transform: scale(1,1);
@@ -1017,7 +1017,7 @@ body.home #main {
 }
 #instagram:hover {
 	-webkit-transform: scale(1.025,1.025);
-	transform: scale(1.025,1.025));
+	transform: scale(1.025,1.025);
 }
 #instagram .wrap_widget {
 	position: relative;
@@ -1100,7 +1100,7 @@ body.home #main {
 }
 #footer .inner .right .top .list_sns li:hover {
 	-webkit-transform: scale(1.2,1.2);
-	transform: scale(1.2,1.2));
+	transform: scale(1.2,1.2);
 }
 #footer .inner .right .bottom {
 	overflow: hidden;
@@ -1223,7 +1223,7 @@ body.home #main {
 }
 #fixed .right .list_sns li:hover {
 	-webkit-transform: scale(1.2,1.2);
-	transform: scale(1.2,1.2));
+	transform: scale(1.2,1.2);
 }
 
 #fixed_sp {
