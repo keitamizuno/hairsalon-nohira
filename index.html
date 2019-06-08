@@ -34,6 +34,7 @@
 		href="https://hairsalon-nohira.herokuapp.com/wordpress/wp-content/themes/cafestudio/css/reset.css" />
 	<link rel="stylesheet"
 		href="https://hairsalon-nohira.herokuapp.com/wordpress/wp-content/themes/cafestudio/css/slick.css" />
+
 	<!-- wp_head -->
 	<title>HairSalon-Nohira</title>
 	<meta name='robots' content='noindex,follow' />
@@ -117,8 +118,10 @@
 	<div id="loading">
 		<div class="logo">
 
-
-			<img src="hairsalon_nohira_logo.svg">
+			<svg version="1.1" id="nohira-logo" xmlns="http://www.w3.org/2000/svg"
+				xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 240 391.9"
+				style="enable-background:new 0 0 240 391.9;" xml:space="preserve">
+				<img src="hairsalon_nohira_logo.svg"></svg>
 
 
 			<!-- <svg version="1.1" id="logo02" x="0px" y="0px" width="400" height="600" viewBox="130 -410 300 500"
@@ -583,7 +586,11 @@
 	<script
 		src="https://hairsalon-nohira.herokuapp.com/wordpress/wp-content/themes/cafestudio/js/jquery.cookie.js"></script>
 	<script src="https://hairsalon-nohira.herokuapp.com/wordpress/wp-content/themes/cafestudio/js/common.js"></script>
-
+	<script>
+		new Vivus('nohira-logo', { duration: 100, start: 'autostart', pathTimingFunction: Vivus.EASE_OUT, }, function (obj) {
+			obj.el.classList.add('done');
+		});
+	</script>
 </body>
 
 </html>
