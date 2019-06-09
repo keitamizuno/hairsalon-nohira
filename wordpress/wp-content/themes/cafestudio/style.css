@@ -185,7 +185,7 @@ img {
 	z-index: 1; 
 }
 
-html:before,
+/* html:before,
 html:after,
 body:before,
 body:after {
@@ -194,7 +194,7 @@ body:after {
   position: fixed;
   display: block;
   z-index: 101;
-} 
+}  */
 
 /* 上 */
 html:before {
