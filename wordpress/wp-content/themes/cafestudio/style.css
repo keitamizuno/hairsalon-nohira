@@ -537,6 +537,15 @@ margin-bottom: 22px;
 line-height: 1;
 text-align: center
 }
+#menu .pricedetail{
+	font: normal normal normal 25px/1.5em courier new;
+	color: rgba(255, 77, 0, 1);
+	margin-top: 22px;
+	margin-bottom: 22px;
+	line-height: 1;
+	text-align: center
+	}
+
 #menu .left {
 	position: relative;
 	float: left;
