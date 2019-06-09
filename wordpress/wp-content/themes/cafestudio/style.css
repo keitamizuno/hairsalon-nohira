@@ -234,7 +234,7 @@ body:after {
 	position: fixed;
 	top: 0; left: 0;
 	width: 100%; height: 80px;
-	background: #fff;
+	background: #2a4b7c;
 	z-index: 100;
 	transition: all 0.15s ease;
 	-webkit-transition: all 0.15s ease;
@@ -245,7 +245,7 @@ body:after {
 	top: 10px; left: 50%;
 	margin-left: -60px;
 	width: 120px; height: 120px;
-	background: #fff;
+	background: #2a4b7c;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
