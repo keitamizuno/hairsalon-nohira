@@ -4,59 +4,59 @@
 /*------------------------- loading -------------------------*/
 
 /*----- home -----*/
-// jQuery(function(){
-//     var h = jQuery(window).height();
-//     if (jQuery(window).width() >= 1080) {
-//         jQuery("#kv").height(h - 160);
-//     } else {
-//         jQuery("#kv").height(h - 60);
-//     }
-//     jQuery("#loaded").css("opacity","0");
-//     jQuery("#loading").height(h).css("display","block");
-//     jQuery("body.home #loading .logo").delay(500).fadeIn(500);
-//     jQuery("#loading .bg").delay(500).fadeIn(500);
-// });
-// jQuery(window).load(function() {
-//     setTimeout(function () {
-//         jQuery("body.home #logo02").fadeIn(500);
-//         var logo02 = new Vivus("logo02", {type: "scenario-sync", duration: 10, pathTimingFunction: Vivus.EASE })
-//     }, 500);
-//     setTimeout(function () {
-//         jQuery("body.home #logo03").fadeIn(500);
-//     }, 500);
-//     jQuery("body.home #loading .loader").delay(250).fadeOut(250);
-//     jQuery("body.home #loading .bg").delay(3000).fadeOut(500);
-//     jQuery("body.home #loading .logo").delay(3000).fadeOut(500);
-//     jQuery("body.home #loading").delay(3000).fadeOut(500);
-//     jQuery("body.home #loaded").css("opacity","1");
-//     jQuery("body.home #header h1").delay(3000).animate({"top":"20px","opacity":"1"},600,"easeInQuart");
-//     jQuery("body.home #kv .text .copy").delay(3000).animate({"margin-top":"0"},600,"easeInQuart");
-//     jQuery("body.home #kv .text .name").delay(3000).animate({"margin-top":"0"},1000,"easeInQuart");
-//     jQuery("body.home #kv .bg").delay(3000).animate({"opacity":"1"},1000);
-//     //lower
-//     jQuery("body.single #loaded,body.page #loaded,body.search #loaded").css("opacity","1");
-//     jQuery("body.single #loading,body.page #loading,body.search #loading").delay(500).fadeOut(500);
-//     jQuery("body.single #loading .bg,body.page #loading .bg,body.search #loading .bg").delay(500).fadeOut(500);
-//     jQuery("body.single #header h1,body.page #header h1,body.search #header h1").delay(500).animate({"top":"20px","opacity":"1"},600,"easeInQuart");
-// });
-// jQuery(function(){
-//     setTimeout(function () {
-//         jQuery("body.home #loading .loader").delay(250).fadeOut(250);
-//         jQuery("body.home #loading .bg").delay(3000).fadeOut(500);
-//         jQuery("body.home #loading .logo").delay(3000).fadeOut(500);
-//         jQuery("body.home #loading").delay(3000).fadeOut(500);
-//         jQuery("body.home #loaded").css("opacity","1");
-//         jQuery("body.home #header h1").delay(3000).animate({"top":"20px","opacity":"1"},600,"easeInQuart");
-//         jQuery("body.home #kv .text .copy").delay(3000).animate({"margin-top":"0"},600,"easeInQuart");
-//         jQuery("body.home #kv .text .name").delay(3000).animate({"margin-top":"0"},1000,"easeInQuart");
-//         jQuery("body.home #kv .bg").delay(3000).animate({"opacity":"1"},1000);
-//         //lower
-//         jQuery("body.single #loaded,body.page #loaded,body.search #loaded").css("opacity","1");
-//         jQuery("body.single #loading,body.page #loading,body.search #loading").delay(500).fadeOut(500);
-//         jQuery("body.single #loading .bg,body.page #loading .bg,body.search #loading .bg").delay(500).fadeOut(500);
-//         jQuery("body.single #header h1,body.page #header h1,body.search #header h1").delay(500).animate({"top":"20px","opacity":"1"},600,"easeInQuart");
-//     }, 5000);
-// });
+jQuery(function () {
+    var h = jQuery(window).height();
+    if (jQuery(window).width() >= 1080) {
+        jQuery("#kv").height(h - 160);
+    } else {
+        jQuery("#kv").height(h - 60);
+    }
+    jQuery("#loaded").css("opacity", "0");
+    jQuery("#loading").height(h).css("display", "block");
+    jQuery("body.home #loading .logo").delay(500).fadeIn(500);
+    jQuery("#loading .bg").delay(500).fadeIn(500);
+});
+jQuery(window).load(function () {
+    setTimeout(function () {
+        jQuery("body.home #logo02").fadeIn(500);
+        var logo02 = new Vivus("logo02", { type: "scenario-sync", duration: 10, pathTimingFunction: Vivus.EASE })
+    }, 500);
+    setTimeout(function () {
+        jQuery("body.home #logo03").fadeIn(500);
+    }, 500);
+    jQuery("body.home #loading .loader").delay(250).fadeOut(250);
+    jQuery("body.home #loading .bg").delay(3000).fadeOut(500);
+    jQuery("body.home #loading .logo").delay(3000).fadeOut(500);
+    jQuery("body.home #loading").delay(3000).fadeOut(500);
+    jQuery("body.home #loaded").css("opacity", "1");
+    jQuery("body.home #header h1").delay(300).animate({ "top": "20px", "opacity": "1" }, 600, "easeInQuart");
+    jQuery("body.home #kv .text .copy").delay(300).animate({ "margin-top": "0" }, 600, "easeInQuart");
+    jQuery("body.home #kv .text .name").delay(300).animate({ "margin-top": "0" }, 1000, "easeInQuart");
+    jQuery("body.home #kv .bg").delay(300).animate({ "opacity": "1" }, 1000);
+    //lower
+    jQuery("body.single #loaded,body.page #loaded,body.search #loaded").css("opacity", "1");
+    jQuery("body.single #loading,body.page #loading,body.search #loading").delay(500).fadeOut(500);
+    jQuery("body.single #loading .bg,body.page #loading .bg,body.search #loading .bg").delay(500).fadeOut(500);
+    jQuery("body.single #header h1,body.page #header h1,body.search #header h1").delay(500).animate({ "top": "20px", "opacity": "1" }, 600, "easeInQuart");
+});
+jQuery(function () {
+    setTimeout(function () {
+        jQuery("body.home #loading .loader").delay(250).fadeOut(250);
+        jQuery("body.home #loading .bg").delay(300).fadeOut(500);
+        jQuery("body.home #loading .logo").delay(300).fadeOut(500);
+        jQuery("body.home #loading").delay(300).fadeOut(500);
+        jQuery("body.home #loaded").css("opacity", "1");
+        jQuery("body.home #header h1").delay(300).animate({ "top": "20px", "opacity": "1" }, 600, "easeInQuart");
+        jQuery("body.home #kv .text .copy").delay(300).animate({ "margin-top": "0" }, 600, "easeInQuart");
+        jQuery("body.home #kv .text .name").delay(300).animate({ "margin-top": "0" }, 1000, "easeInQuart");
+        jQuery("body.home #kv .bg").delay(300).animate({ "opacity": "1" }, 1000);
+        //lower
+        jQuery("body.single #loaded,body.page #loaded,body.search #loaded").css("opacity", "1");
+        jQuery("body.single #loading,body.page #loading,body.search #loading").delay(500).fadeOut(500);
+        jQuery("body.single #loading .bg,body.page #loading .bg,body.search #loading .bg").delay(500).fadeOut(500);
+        jQuery("body.single #header h1,body.page #header h1,body.search #header h1").delay(500).animate({ "top": "20px", "opacity": "1" }, 600, "easeInQuart");
+    }, 5000);
+});
 
 /*-------------------------------------------------- loaded --------------------------------------------------*/
 jQuery(window).load(function () {
