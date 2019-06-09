@@ -20,14 +20,14 @@ jQuery(window).load(function () {
     setTimeout(function () {
         jQuery("body.home #logo02").fadeIn(500);
         var logo02 = new Vivus("logo02", { type: "scenario-sync", duration: 10, pathTimingFunction: Vivus.EASE })
-    }, 500);
+    }, 100);
     setTimeout(function () {
         jQuery("body.home #logo03").fadeIn(500);
     }, 500);
     jQuery("body.home #loading .loader").delay(250).fadeOut(250);
-    jQuery("body.home #loading .bg").delay(3000).fadeOut(500);
-    jQuery("body.home #loading .logo").delay(3000).fadeOut(500);
-    jQuery("body.home #loading").delay(3000).fadeOut(500);
+    jQuery("body.home #loading .bg").delay(2000).fadeOut(500);
+    jQuery("body.home #loading .logo").delay(2000).fadeOut(500);
+    jQuery("body.home #loading").delay(2000).fadeOut(500);
     jQuery("body.home #loaded").css("opacity", "1");
     jQuery("body.home #header h1").delay(300).animate({ "top": "20px", "opacity": "1" }, 600, "easeInQuart");
     jQuery("body.home #kv .text .copy").delay(300).animate({ "margin-top": "0" }, 600, "easeInQuart");
