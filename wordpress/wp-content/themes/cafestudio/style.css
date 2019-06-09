@@ -127,7 +127,7 @@ img {
 }
 #logo02 {
 	top: 0; left: 0;
-	width: 400px;
+	width: 300px;
 }
 #logo03 {
 	top: 0; right: 15px;
@@ -528,6 +528,14 @@ body.home #main {
 	margin: 0 auto 160px;
 	width: 1080px;
 	overflow: hidden;
+}
+#menu .price{
+font: normal normal normal 25px/1.5em suez one;
+color: rgba(255, 77, 0, 1);
+margin-top: 22px;
+margin-bottom: 22px;
+line-height: 1;
+text-align: center
 }
 #menu .left {
 	position: relative;
