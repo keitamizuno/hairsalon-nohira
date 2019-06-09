@@ -193,7 +193,7 @@ body:after {
   background: #2a4b7c;
   position: fixed;
   display: block;
-  z-index: 1;
+  z-index: 101;
 }
 
 /* 上 */
