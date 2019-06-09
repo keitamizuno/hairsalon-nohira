@@ -126,7 +126,7 @@ img {
 	position: absolute;
 }
 #logo02 {
-	margin-top: 30; left: 0;
+	top: 0; left: 0;
 	width: 300px;
 }
 #logo03 {
