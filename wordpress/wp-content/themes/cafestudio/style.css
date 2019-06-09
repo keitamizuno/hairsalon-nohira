@@ -185,7 +185,7 @@ img {
 	z-index: 1; 
 }
 
-/* html:before,
+html:before,
 html:after,
 body:before,
 body:after {
@@ -194,39 +194,39 @@ body:after {
   position: fixed;
   display: block;
   z-index: 101;
-} */
+} 
 
 /* 上 */
-/* html:before {
+html:before {
   height: 10px; 
   width: 100vw;
   left: 0;
   top: 0;
-} */
+} 
 
 /* 右 */
-/* html:after {
+html:after {
   width: 10px;
   height: 100vh;
   right: 0;
   top: 0;
-} */
+} 
 
 /* 下 */
-/* body:before {
+body:before {
   height: 10px;
   width: 100vw;
   bottom: 0;
   left: 0;
-} */
+} 
 
 /* 左 */
-/* body:after {
+body:after {
   width: 10px;
   height: 100vh;
   top: 0;
   left: 0;
-} */
+} 
 
 /*-------------------------------------------------- header --------------------------------------------------*/
 
