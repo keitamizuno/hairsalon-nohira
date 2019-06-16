@@ -148,7 +148,7 @@ body.home #main {
 
 /*---------- menu ----------*/
 #menu {
-	margin: 0 0 120px;
+	margin: 0 0 40px;
 	width: auto;
 }
 #menu .left,
@@ -180,8 +180,8 @@ body.home #main {
 }
 #menu .right ul {
 	position: relative;
-	margin: 60px auto 0;
-	width: 290px; height: 683px;
+	margin: 30px auto 0;
+	width: 308px; height: 650px;
 	overflow: hidden;
 }
 #menu .right ul li,
