@@ -150,6 +150,7 @@ body.home #main {
 #menu {
 	margin: 0 0 40px;
 	width: auto;
+	padding: 42px 0px;
 }
 #menu .left,
 #menu .right {
