@@ -437,7 +437,7 @@ body.home #main {
 .plan_promotion .right {
 	position: static;
 	width: auto; height: auto;
-	
+	padding-top: 42px;
 }
 .plan_promotion .ttl {
 	margin-top: 0;
