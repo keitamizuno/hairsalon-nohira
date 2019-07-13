@@ -437,7 +437,7 @@ body.home #main {
 .plan_promotion .right {
 	position: static;
 	width: auto; height: auto;
-	padding-top: 20px;
+	
 }
 .plan_promotion .ttl {
 	margin-top: 0;
@@ -458,7 +458,7 @@ body.home #main {
 	margin-bottom: 90px;
 }
 .plan_promotion .list_img {
-	margin: 0 25% 90px;
+	margin: 20px 25% 20px;
 }
 
 /*---------- instagram ----------*/
