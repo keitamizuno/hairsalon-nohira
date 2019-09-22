@@ -1064,7 +1064,9 @@ text-align: center
 	background: #57844d;
 }
 .plan_promotion .list_img {
-	background: #000;
+	background: #fff;
+	width: 360px;
+	height: 360px;
 }
 
 /*---------- instagram ----------*/
