@@ -213,7 +213,7 @@ body.home #main {
 	#menu .right ul {
 		position: relative;
 		margin: 50px auto 0;
-		width: 400px; height: 720px;
+		width: 400px; height: 800px;
 		overflow: hidden;
 	}
 	#menu .right ul li:first-child {
