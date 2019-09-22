@@ -715,7 +715,19 @@ width:150%;
 }
 
 .barber-img-block{
-	margin: auto;
+
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: stretch;
+	align-items: stretch;
+	border: 1px solid #aaa;
+	text-align: center;
+	height: 150px;
+	padding: 10px;
+	margin: 20px;
+	
 }
 
 @-webkit-keyframes ico_new {
