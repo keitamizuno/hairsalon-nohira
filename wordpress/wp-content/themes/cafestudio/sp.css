@@ -253,6 +253,29 @@ body.home #main {
 		width: 320px; height: 650px;
 		overflow: hidden;
 	}
+	#menu .right ul li,
+	#menu .right ul li:first-child {
+		position: absolute;
+		margin: 0;
+	}
+	#menu .right ul li:nth-child(1) {
+		top: 0; left: 0;
+	}
+	#menu .right ul li:nth-child(2) {
+		top: 97px; right: 0;
+	}
+	#menu .right ul li:nth-child(3) {
+		top: 195px; left: 0;
+	}
+	#menu .right ul li:nth-child(4) {
+		top: 292px; right: 0;
+	}
+	#menu .right ul li:nth-child(5) {
+		top: 390px; left: 0;
+	}
+	#menu .right ul li:nth-child(6) {
+		top: 487px; right: 0;
+	}
 }
 
 
