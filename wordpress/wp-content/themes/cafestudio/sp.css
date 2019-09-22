@@ -213,6 +213,21 @@ body.home #main {
 	width:100%;
 	}
 
+.barber-img-block{
+
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+	text-align: center;
+	padding: 10px;
+	margin: 20px;
+	width: 100%;
+	
+}
+
 /*---------- schedule ----------*/
 #schedule {
 	margin: 0 0 120px;
