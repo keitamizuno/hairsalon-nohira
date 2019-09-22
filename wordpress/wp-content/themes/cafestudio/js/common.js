@@ -141,6 +141,8 @@ jQuery(window).load(function () {
                 jQuery("#menu .left .ttl").delay(500).animate({ "top": "0", "left": "1" }, 750, "easeOutQuart");
                 jQuery("#menu .left .bg").delay(500).animate({ "bottom": "0", "right": "1" }, 750, "easeOutQuart");
             }, 500);
+            var delaySpeed = 300;
+            var fadeSpeed = 600;
             jQuery("#menu .right ul li").each(function (i) {
                 jQuery(this).delay(i * (delaySpeed)).animate({ "opacity": "1" }, fadeSpeed);
             });
