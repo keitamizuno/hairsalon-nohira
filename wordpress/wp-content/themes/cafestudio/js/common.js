@@ -147,10 +147,9 @@ jQuery(window).load(function () {
                 jQuery("#menu .right ul li").each(function (i) {
                     jQuery(this).delay(i * (delaySpeed)).animate({ "opacity": "1" }, fadeSpeed);
                 });
-                jQuery("#menu .right ul li .thumb").delay(delaySpeed).animate({ "margin-top": "5px", "margin-bottom": "5px", "margin-left": "5px", "width": "100%" });
-                // jQuery("#menu .right ul li .thumb").each(function (i) {
-                //     jQuery("#menu .right ul li .thumb").delay(i * (delaySpeed)).animate({ "margin-top": "5px", "margin-bottom": "5px", "margin-left": "5px", "width": "150px" });
-                // });
+                jQuery("#menu .right ul li .thumb").each(function (i) {
+                    jQuery(this).delay(i * (delaySpeed)).animate({ "margin-top": "5px", "margin-bottom": "5px", "margin-left": "5px", "width": "100%" });
+                });
             }, 1000);
         }
     });
