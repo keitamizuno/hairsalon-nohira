@@ -148,7 +148,7 @@ jQuery(window).load(function () {
                     jQuery(this).delay(i * (delaySpeed)).animate({ "opacity": "1" }, fadeSpeed);
                 });
                 jQuery("#menu .right ul li .thumb").each(function (i) {
-                    jQuery(this).delay(i * (delaySpeed)).animate({ "margin-top": "5px", "margin-bottom": "5px", "margin-left": "5px", "width": "100%" });
+                    jQuery(this).delay(i * (delaySpeed)).animate({ "width": "100%" });
                 });
             }, 1000);
         }
