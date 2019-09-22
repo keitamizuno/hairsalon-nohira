@@ -209,6 +209,15 @@ body.home #main {
 	top: 487px; right: 0;
 }
 
+@media(max-width: 1100px){
+	#menu .right ul {
+		position: relative;
+		margin: 50px auto 0;
+		width: 400px; height: 650px;
+		overflow: hidden;
+	}
+}
+
 @media(max-width: 400px){
 	#menu .right ul {
 		position: relative;
@@ -218,14 +227,7 @@ body.home #main {
 	}
 }
 
-@media(max-width: 1100px){
-	#menu .right ul {
-		position: relative;
-		margin: 50px auto 0;
-		width: 400px; height: 650px;
-		overflow: hidden;
-	}
-}
+
 
 .barber-img{
 	width:320px;
