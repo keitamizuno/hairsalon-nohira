@@ -714,6 +714,10 @@ text-align: center
 width:150%;
 }
 
+.barber-img-block{
+	margin: auto;
+}
+
 @-webkit-keyframes ico_new {
 	0% {
 		-webkit-transform: scale(1,1);
