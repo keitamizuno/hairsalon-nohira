@@ -222,21 +222,27 @@ body.home #main {
 
 	#menu .right ul li:nth-child(1) {
 		top: 0; left: 0;
+		width:200px
 	}
 	#menu .right ul li:nth-child(2) {
 		top: 110px; right: 0;
+		width:200px
 	}
 	#menu .right ul li:nth-child(3) {
 		top: 240px; left: 0;
+		width:200px
 	}
 	#menu .right ul li:nth-child(4) {
 		top: 350px; right: 0;
+		width:200px
 	}
 	#menu .right ul li:nth-child(5) {
 		top: 480px; left: 0;
+		width:200px
 	}
 	#menu .right ul li:nth-child(6) {
 		top: 590px; right: 0;
+		width:200px
 	}
 }
 
