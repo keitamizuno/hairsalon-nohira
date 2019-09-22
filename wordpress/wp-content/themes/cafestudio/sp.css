@@ -209,6 +209,10 @@ body.home #main {
 	top: 487px; right: 0;
 }
 
+.barber-img{
+	width:100%;
+	}
+
 /*---------- schedule ----------*/
 #schedule {
 	margin: 0 0 120px;

@@ -709,6 +709,11 @@ text-align: center
 	-webkit-animation: ico_new .7s infinite linear;
 	animation: ico_new .7s infinite linear;
 }
+
+.barber-img{
+width:150%;
+}
+
 @-webkit-keyframes ico_new {
 	0% {
 		-webkit-transform: scale(1,1);
