@@ -182,7 +182,7 @@ body.home #main {
 #menu .right ul {
 	position: relative;
 	margin: 50px auto 0;
-	width: 308px; height: 650px;
+	width: 320px; height: 650px;
 	overflow: hidden;
 }
 #menu .right ul li,
@@ -207,6 +207,24 @@ body.home #main {
 }
 #menu .right ul li:nth-child(6) {
 	top: 487px; right: 0;
+}
+
+@media(max-width: 400px){
+	#menu .right ul {
+		position: relative;
+		margin: 50px auto 0;
+		width: 320px; height: 7200px;
+		overflow: hidden;
+	}
+}
+
+@media(max-width: 1100px){
+	#menu .right ul {
+		position: relative;
+		margin: 50px auto 0;
+		width: 400px; height: 650px;
+		overflow: hidden;
+	}
 }
 
 .barber-img{
