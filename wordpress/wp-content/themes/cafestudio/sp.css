@@ -478,7 +478,9 @@ body.home #main {
 	margin-bottom: 90px;
 }
 .plan_promotion .list_img {
-	margin: 20px 25% 20px;
+	background: #fff;
+	width: 160px;
+	height: 160px;
 }
 
 /*---------- instagram ----------*/
