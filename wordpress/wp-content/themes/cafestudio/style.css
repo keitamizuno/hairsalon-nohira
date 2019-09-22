@@ -680,6 +680,7 @@ text-align: center
 	text-decoration: none;
 }
 #menu .right ul li .thumb {
+	width: 230px;
 	margin-top: 15px;
 	margin-bottom: 15px;
 	margin-left: 15px;
