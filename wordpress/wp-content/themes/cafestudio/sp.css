@@ -181,7 +181,7 @@ body.home #main {
 }
 #menu .right ul {
 	position: relative;
-	margin: 30px auto 0;
+	margin: 50px auto 0;
 	width: 308px; height: 650px;
 	overflow: hidden;
 }
@@ -223,8 +223,6 @@ body.home #main {
 	-webkit-align-items: center;
 	align-items: center;
 	flex-direction: column;
-	padding: 10px;
-	margin: 20px;
 	width: 100%;
 	
 }
