@@ -146,9 +146,11 @@ jQuery(window).load(function () {
             jQuery("#menu .right ul li").each(function (i) {
                 jQuery(this).delay(i * (delaySpeed)).animate({ "opacity": "1" }, fadeSpeed);
             });
-            jQuery("#menu .right ul li .thumb").each(function (i) {
-                jQuery(this).delay(i * (delaySpeed)).animate({ "width": "100%" });
-            });
+            if (window.matchMedia('(max-width: 1100px)').matches) {
+                jQuery("#menu .right ul li .thumb").each(function (i) {
+                    jQuery(this).delay(i * (delaySpeed)).animate({ "margin-top": "5px", "margin-bottom": "5px", "margin-left": "5px", "width": "200px" });
+                });
+            }
             // setTimeout(function () {
             //     var delaySpeed = 300;
             //     var fadeSpeed = 600;
