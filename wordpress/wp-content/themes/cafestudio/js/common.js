@@ -146,7 +146,12 @@ jQuery(window).load(function () {
             jQuery("#menu .right ul li").each(function (i) {
                 jQuery(this).delay(i * (delaySpeed)).animate({ "opacity": "1" }, fadeSpeed);
             });
-            if (window.matchMedia('(mmin-width: 1101px)').matches) {
+            if (window.matchMedia('(min-width: 1101px)').matches) {
+                jQuery("#menu .right ul li .thumb").each(function (i) {
+                    jQuery(this).delay(i * (delaySpeed)).animate({ "margin-top": "5px", "margin-bottom": "5px", "margin-left": "5px", "width": "150px" });
+                });
+            }
+            if (window.matchMedia('(max-width: 400px)').matches) {
                 jQuery("#menu .right ul li .thumb").each(function (i) {
                     jQuery(this).delay(i * (delaySpeed)).animate({ "margin-top": "5px", "margin-bottom": "5px", "margin-left": "5px", "width": "150px" });
                 });
@@ -154,11 +159,6 @@ jQuery(window).load(function () {
             if (window.matchMedia('(max-width: 1100px)').matches) {
                 jQuery("#menu .right ul li .thumb").each(function (i) {
                     jQuery(this).delay(i * (delaySpeed)).animate({ "margin-top": "5px", "margin-bottom": "5px", "margin-left": "5px", "width": "200px" });
-                });
-            }
-            if (window.matchMedia('(max-width: 400px)').matches) {
-                jQuery("#menu .right ul li .thumb").each(function (i) {
-                    jQuery(this).delay(i * (delaySpeed)).animate({ "margin-top": "5px", "margin-bottom": "5px", "margin-left": "5px", "width": "150px" });
                 });
             }
             // setTimeout(function () {
