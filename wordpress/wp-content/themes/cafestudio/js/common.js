@@ -151,7 +151,7 @@ jQuery(window).load(function () {
                     jQuery(this).delay(i * (delaySpeed)).animate({ "margin-top": "5px", "margin-bottom": "5px", "margin-left": "5px", "width": "150px" });
                 });
             }
-            if (window.matchMedia('(min-width: 401px)and(max-width: 1100px)').matches) {
+            if (window.matchMedia("(min-width: 401px)and(max-width: 1100px)").matches) {
                 jQuery("#menu .right ul li .thumb").each(function (i) {
                     jQuery(this).delay(i * (delaySpeed)).animate({ "margin-top": "5px", "margin-bottom": "5px", "margin-left": "5px", "width": "200px" });
                 });
