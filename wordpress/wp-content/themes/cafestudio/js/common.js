@@ -151,14 +151,14 @@ jQuery(window).load(function () {
                     jQuery(this).delay(i * (delaySpeed)).animate({ "margin-top": "5px", "margin-bottom": "5px", "margin-left": "5px", "width": "150px" });
                 });
             }
+            if (window.matchMedia('(max-width: 1100px)and(min-width:401px)').matches) {
+                jQuery("#menu .right ul li .thumb").each(function (i) {
+                    jQuery(this).delay(i * (delaySpeed)).animate({ "margin-top": "5px", "margin-bottom": "5px", "margin-left": "5px", "width": "200px" });
+                });
+            }
             if (window.matchMedia('(max-width: 400px)').matches) {
                 jQuery("#menu .right ul li .thumb").each(function (i) {
                     jQuery(this).delay(i * (delaySpeed)).animate({ "margin-top": "5px", "margin-bottom": "5px", "margin-left": "5px", "width": "150px" });
-                });
-            }
-            if (window.matchMedia('(max-width: 1100px)').matches) {
-                jQuery("#menu .right ul li .thumb").each(function (i) {
-                    jQuery(this).delay(i * (delaySpeed)).animate({ "margin-top": "5px", "margin-bottom": "5px", "margin-left": "5px", "width": "200px" });
                 });
             }
             // setTimeout(function () {
