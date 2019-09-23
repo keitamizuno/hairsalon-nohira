@@ -246,7 +246,7 @@ body.home #main {
 	}
 }
 
-@media(max-width: 400px){
+@media(max-width: 450px){
 	#menu .right ul {
 		position: relative;
 		margin: 50px auto 0;
