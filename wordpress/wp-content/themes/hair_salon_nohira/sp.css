@@ -589,6 +589,12 @@ body.home #main {
 	display: block;
 }
 
+.insta_icon {
+	margin: auto;
+	width: 100px;
+	padding-top: 50px;
+}
+
 /*-------------------------------------------------- footer --------------------------------------------------*/
 
 #footer {

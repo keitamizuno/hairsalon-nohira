@@ -8908,8 +8908,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .insta-widget{
-  margin: 0 auto;
-  width: 80%;
+  width: 100%;
 }
 
 @media print {
