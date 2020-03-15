@@ -997,6 +997,7 @@ width:350px;
 }
 
 /*---------- plan/promotion ----------*/
+
 .plan_promotion {
 	position: relative;
 	margin: 0 auto;
@@ -1089,7 +1090,14 @@ width:350px;
 }
 
 /*---------- instagram ----------*/
-#instagram {
+.instagram {
+	position: relative;
+	margin: 0 auto;
+	width: 1080px; height: 740px;
+	padding: 100px 0px;
+}
+
+/* #instagram {
 	margin: 0 auto 160px;
 	width: 1080px;
 	transition: all 0.2s ease;
@@ -1130,7 +1138,7 @@ width:350px;
 	top: 0; left: 0;
 	width: 100%; height: 100%;
 	z-index: 1;
-}
+} */
 
 /*-------------------------------------------------- footer --------------------------------------------------*/
 
