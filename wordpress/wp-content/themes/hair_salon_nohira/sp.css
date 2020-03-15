@@ -561,7 +561,12 @@ body.home #main {
 }
 
 /*---------- instagram ----------*/
-#instagram {
+.instagram {
+	position: relative;
+	margin: 0 auto;
+	width: auto; height: auto;
+}
+/* #instagram {
 	margin: 0 45px 120px;
 	width: auto;
 }
@@ -587,7 +592,7 @@ body.home #main {
 }
 #instagram .wrap_widget .content iframe {
 	display: block;
-}
+} */
 
 .insta_icon {
 	margin: auto;
