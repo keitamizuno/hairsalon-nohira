@@ -95,7 +95,7 @@ h2.resp-accordion {
 h2.resp-tab-active {
   border-bottom: 0px solid #fff !important;
   margin-bottom: 0px !important;
-  padding: 10px 15px !important;
+  padding: 16px 15px !important;
 }
 
 h2.resp-tab-title:last-child {
