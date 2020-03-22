@@ -868,6 +868,10 @@ h3.heading:after{
     border: 1px solid #00a98f;
     color: #fff;
 }
+
+.qa-header{
+    text-align: center;
+}
 /*-- team --*/
 
 /*-- footer --*/
